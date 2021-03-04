@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: auto;
+}
+.footer{
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color:gainsboro;
+}
+.our-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:auto;
+    height: auto;
+    box-shadow: 4px  4px 10px grey;
+    border-radius: 30px;
+}
+
+.icons1, .fa-cogs{
+    background-color:navy;
+    border-radius: 45%;
+ padding: 20px;
+ color: white;
+}
+.icons2, .fa-stopwatch{
+    background-color: red;
+    border-radius: 45%;
+    padding: 20px;
+    color: white;
+}
+.icons3, .fa-user-secret{
+    background-color: skyblue;
+    border-radius: 45%;
+ padding: 20px;
+ color: white;
+}
+.icons4, .fa-server{
+    background-color: orange;
+    border-radius: 45%;
+ padding: 20px;
+ color: white;
+}
+.icons5, .fa-lock{
+    background-color: plum;
+    border-radius: 45%;
+ padding: 20px;
+ color: white;
+}
+.icons6, .fa-database{
+    background-color:greenyellow;
+    border-radius: 45%;
+ padding: 20px;
+ color: white;
+}
+
+.custom-h1{
+font-size: 20px;
+text-align: center;
+}
+.custom-p{
+    font-size: 10px;
+    text-align: center;
+
+}
+.map{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+.dis{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../svg/bg2.svg");
+    text-align: start;
+    
+}
